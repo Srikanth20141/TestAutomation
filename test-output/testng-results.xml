@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-09T21:40:17 WET" name="Suite" finished-at="2023-12-09T21:40:25 WET" duration-ms="7918">
+    <groups>
+    </groups>
+    <test started-at="2023-12-09T21:40:17 WET" name="Test" finished-at="2023-12-09T21:40:21 WET" duration-ms="4107">
+      <class name="automation.prectise.testcases.TC_Login_01">
+        <test-method is-config="true" signature="startBroweser(java.lang.String)[pri:0, instance:automation.prectise.testcases.TC_Login_01@6aeb35e6]" started-at="2023-12-09T21:40:17 WET" name="startBroweser" finished-at="2023-12-09T21:40:20 WET" duration-ms="3027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBroweser -->
+        <test-method signature="login()[pri:0, instance:automation.prectise.testcases.TC_Login_01@6aeb35e6]" started-at="2023-12-09T21:40:20 WET" name="login" finished-at="2023-12-09T21:40:21 WET" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation.prectise.testcases.TC_Login_01@6aeb35e6]" started-at="2023-12-09T21:40:21 WET" name="quit" finished-at="2023-12-09T21:40:21 WET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation.prectise.testcases.TC_Login_01 -->
+    </test> <!-- Test -->
+    <test started-at="2023-12-09T21:40:17 WET" name="Test1" finished-at="2023-12-09T21:40:25 WET" duration-ms="7918">
+      <class name="automation.prectise.testcases.TC_Login_01">
+        <test-method is-config="true" signature="startBroweser(java.lang.String)[pri:0, instance:automation.prectise.testcases.TC_Login_01@618b19ad]" started-at="2023-12-09T21:40:17 WET" name="startBroweser" finished-at="2023-12-09T21:40:25 WET" duration-ms="7676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBroweser -->
+        <test-method signature="login()[pri:0, instance:automation.prectise.testcases.TC_Login_01@618b19ad]" started-at="2023-12-09T21:40:25 WET" name="login" finished-at="2023-12-09T21:40:25 WET" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation.prectise.testcases.TC_Login_01@618b19ad]" started-at="2023-12-09T21:40:25 WET" name="quit" finished-at="2023-12-09T21:40:25 WET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation.prectise.testcases.TC_Login_01 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
