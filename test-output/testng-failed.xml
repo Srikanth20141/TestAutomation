@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.prectise.testcases.TC_Login_01">
+      <class name="automation.api.Morroco">
         <methods>
-          <include name="startBroweser"/>
-          <include name="quit"/>
-          <include name="login"/>
+          <include name="setUp"/>
+          <include name="getRequest"/>
         </methods>
-      </class> <!-- automation.prectise.testcases.TC_Login_01 -->
+      </class> <!-- automation.api.Morroco -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
